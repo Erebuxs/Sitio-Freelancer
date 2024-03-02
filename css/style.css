@@ -114,7 +114,16 @@ h1, h2, h3 {
     color: var(--blanco);
 }
 
-.ubicacion{
+.contenido_hero .ubicacion{
     display: flex;
     align-items: flex-end;
 }
+
+/* servicios */
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
